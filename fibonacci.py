@@ -5,3 +5,9 @@
 # Prompt the user for the number of terms.
 # Validate that the input is a positive integer.
 # Use a for loop to print the Fibonacci sequence up to that many terms.
+While true:
+ user_input = input("Enter the number of terms: ")
+if user_input.isdigit():
+  n = int(user_input)
+  if n > 0:
+    break
